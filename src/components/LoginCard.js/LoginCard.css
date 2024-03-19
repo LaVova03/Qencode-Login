@@ -1,10 +1,10 @@
 .login__card {
   height: 85vh;
-  transition: height 0.3s ease; 
+  transition: height 0.3s ease;
 }
 
 .login__card__main {
-  height: 100vh; 
+  height: 100vh;
   transition: height 0.3s ease;
 }
 
@@ -51,4 +51,16 @@
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.3s, transform 0.4s;
+}
+
+@media screen and (max-width: 767px) {
+  .login__card {
+    height: 80vh;
+    transition: height 0.3s ease;
+  }
+
+  .login__card__main {
+    height: 95vh;
+    transition: height 0.3s ease;
+  }
 }
