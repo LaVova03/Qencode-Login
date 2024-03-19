@@ -1,4 +1,5 @@
 .qencode__login__wrap {
   text-align: center;
   font-family: "Basis Grotesque Pro";
+  max-height: 100vh;
 }

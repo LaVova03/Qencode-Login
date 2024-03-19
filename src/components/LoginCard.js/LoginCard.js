@@ -70,7 +70,7 @@ const LoginCard = () => {
     };
 
     return (
-        <div>
+        <div className={`login__card${isPassword ? '__main' : ''}`} >
             <MainHeader />
             <div className={`social__wrap${isPassword ? ' show' : ''}`}>
                 <SocialButton isGoogle />
@@ -87,7 +87,7 @@ const LoginCard = () => {
                 <Footer />
             </div>
             <ToastContainer />
-        </div>
+        </div >
     );
 }
 

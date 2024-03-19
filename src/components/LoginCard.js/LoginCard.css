@@ -1,3 +1,21 @@
+.login__card {
+  height: 85vh;
+  transition: height 0.3s ease; 
+}
+
+.login__card__main {
+  height: 100vh; 
+  transition: height 0.3s ease;
+}
+
+.login__card.active {
+  height: max-content;
+}
+
+.login__card.active .login__card__main {
+  height: 100%;
+}
+
 .social__wrap {
   display: flex;
   position: relative;
