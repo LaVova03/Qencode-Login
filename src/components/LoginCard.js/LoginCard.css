@@ -8,17 +8,10 @@
   transition: height 0.3s ease;
 }
 
-.login__card.active {
-  height: max-content;
-}
-
-.login__card.active .login__card__main {
-  height: 100%;
-}
-
 .social__wrap {
   display: flex;
   position: relative;
+  z-index: 999;
   justify-content: space-between;
   width: 400px;
   overflow: hidden;
