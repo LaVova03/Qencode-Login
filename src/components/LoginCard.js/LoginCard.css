@@ -55,12 +55,12 @@
 
 @media screen and (max-width: 767px) {
   .login__card {
-    height: 80vh;
+    height: 75vh;
     transition: height 0.3s ease;
   }
 
   .login__card__main {
-    height: 95vh;
+    height: 90vh;
     transition: height 0.3s ease;
   }
 }
