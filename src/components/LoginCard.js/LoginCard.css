@@ -60,7 +60,7 @@
   }
 
   .login__card__main {
-    height: 90vh;
+    height: 80vh;
     transition: height 0.3s ease;
   }
 }
