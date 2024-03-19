@@ -1,0 +1,1 @@
+export const API_URL = 'https://auth-qa.qencode.com/v1/auth/';

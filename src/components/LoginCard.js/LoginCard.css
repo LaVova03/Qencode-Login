@@ -1,0 +1,43 @@
+.social__wrap {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 400px;
+  overflow: hidden;
+}
+
+.social__wrap.show {
+  transition: height 0.3s ease;
+}
+
+.login__input {
+  position: relative;
+  top: -100px;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.login__input__show {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.login__btn {
+  position: relative;
+  top: -10px;
+  opacity: 1;
+  transform: translateY(-100%);
+  transition: opacity 0.3s, transform 0.4s;
+}
+
+.login__btn__show {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.4s;
+}

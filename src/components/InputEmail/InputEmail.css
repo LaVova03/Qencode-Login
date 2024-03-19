@@ -1,0 +1,38 @@
+.input__email__wrap {
+  width: max-content;
+  height: 48px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input__email__main {
+  display: flex;
+  width: 376px;
+  height: 48px;
+  align-items: center;
+  border: 1.2px solid #d3d8dc;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+  padding: 0px 12px 0px 12px;
+  gap: 6px;
+  transition: 0.1s;
+}
+
+.input__email__main:focus {
+  border: 1.2px solid #366fe0;
+  outline: none;
+}
+
+.input__email__main::placeholder {
+  color: #a1abb5;
+}
+
+@media screen and (max-width: 767px) {
+  .input__email__main {
+    width: 80vw;
+  }
+}

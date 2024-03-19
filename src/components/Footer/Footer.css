@@ -1,0 +1,24 @@
+.footer__wrap {
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.footer__label {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.footer__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  background-color: inherit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #316fea;
+  cursor: pointer;
+}

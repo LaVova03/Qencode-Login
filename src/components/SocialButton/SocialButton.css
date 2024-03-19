@@ -1,0 +1,57 @@
+.social__main__wrap {
+  display: block;
+  width: 192px;
+  max-width: 400px;
+}
+
+.btn__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 48px;
+  cursor: pointer;
+  border: 1.2px solid #d3d8dc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: "Basis Grotesque Bolt";
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0;
+  background-color: inherit;
+  margin-bottom: 30px;
+  transition: 0.2s;
+}
+
+.btn__social:hover {
+  background-color: #fafafc;
+}
+
+.img__social__google {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.btn__social__wrap {
+  display: flex;
+}
+
+.img__social__git {
+  width: 19.06px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .social__wrap {
+    width: 85vw;
+  }
+  .social__main__wrap {
+    width: max-content;
+  }
+
+  .btn__social {
+    width: 40vw;
+  }
+}

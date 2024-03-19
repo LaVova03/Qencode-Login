@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: local("Basis Grotesque Pro"),
+    url(./fonts/Grotesque/BasisGrotesquePro-Regular.ttf) format(opentype);
+}
+
+@font-face {
+  font-family: "Basis Grotesque Bolt";
+  src: local("Basis Grotesque Bolt"),
+    url(./fonts/Grotesque/BasisGrotesquePro-Bold.ttf) format(opentype);
+}

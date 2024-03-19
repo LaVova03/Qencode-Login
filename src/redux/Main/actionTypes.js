@@ -1,0 +1,3 @@
+export const SET_ACCESS__TOKEN = 'SET_ACCESS__TOKEN';
+export const SET__EMAIL__STORE = 'SET__EMAIL__STORE';
+export const SET__REFRESH__TOKEN = 'SET__REFRESH__TOKEN';
